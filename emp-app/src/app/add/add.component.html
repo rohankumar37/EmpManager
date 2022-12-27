@@ -1,0 +1,19 @@
+<form id="addForm">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="addnameinput">
+    <label for="age">Age</label>
+    <input type="text" name="age" id="addageinput">
+    <label for="gender">Gender</label>
+    <br>
+    <!-- DROPDOWN WITH MALE, FEMALE OTHER -->
+    <select id="addgenderinput">
+        <option value="m">Male</option>
+        <option value="f">Female</option>
+        <option value="o">Other</option>
+    </select>
+    <br><br>
+    <label for="contact">Contact</label>
+    <input type="text" name="contact" id="addcontactinput">
+
+    <button (click)="$event.stopPropagation(); $event.preventDefault(); submit();">Add person</button>
+</form>

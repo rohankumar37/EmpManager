@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+input{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+/* style table */
+table {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: auto;
+    border-collapse: collapse; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: solid 5px red; */
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #4db891;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr {
+    /* background-color: #f2f2f2; */
+    padding: 8px 8px;
+}
+
+/* style button */
+button {
+    background-color: #1d845e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+}
